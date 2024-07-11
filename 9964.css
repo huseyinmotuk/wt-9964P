@@ -1,0 +1,113 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    padding: 1rem 0 1rem 0;
+    margin-bottom: 5rem;
+    
+
+}
+
+.right-images {
+    display: flex;
+    position: relative;
+    text-align: center;
+}
+
+.sword-img {
+    position: absolute;
+    z-index: 1;
+    bottom: 200px;
+}
+
+.tel-img {
+    position: static;
+    z-index: 3;
+    opacity: 0.85;
+    width: 500%;
+}
+
+.redsword-img {
+    position: absolute;
+    z-index: 1;
+    top: 200px;
+    right: 5px;
+}
+
+.down-images {
+    display: flex;
+    position: relative;
+    text-align: center;
+}
+
+.blood {
+    position: absolute;
+    z-index: 2;
+    top: -90px;
+    left: 40px;
+
+}
+
+.second {
+    position: static;
+    z-index: 0;
+
+}
+
+.icons {
+    color: transparent;
+    background-clip: text;
+    background-image: linear-gradient(to right, #ff00cc, #060288)
+}
+
+::-webkit-scrollbar {
+    width: 15px;
+    background-color: rgb(0, 0, 0);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgb(255, 255, 255);
+    border-radius: 100px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #ff0000;
+}
+
+
+
+@media (max-width:768px) {
+    .sword-img {
+        position: static;
+        display: flex;
+        justify-self: end;
+    }
+
+    .redsword-img {
+        position: static;
+        display: flex;
+        justify-self: start;
+        transform: rotate(180deg);
+    }
+
+    .blood {
+        top: 475px;
+        left: 20px;
+        opacity: 0.5;
+        z-index: 0;
+    }
+
+    .lines {
+        display: block !important;
+    }
+
+    .xxx,
+    .yyy {
+        img {
+            width: 50%;
+        }
+    }
+}

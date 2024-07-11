@@ -1,0 +1,21 @@
+• Sitemizin fontları referans sitenin fontlarıyla aynı olmalı 
+
+• Navbar’ın sağ üstündeki “Send Feedback”
+  butonuna bastığımızda referans sitesindeki örnekte de olduğu gibi bir “modal” açılmalı
+
+• Bu modal’ın içerisine bir form koymalıyız
+
+• Formumuz aynen referans sitesindeki input’ları içerebilir
+
+• formsubmit.co bağlanacak
+
+• responsive 
+
+• footer copyright kendi adımız olacak
+
+• gradyan şeklinde iconlar
+
+
+
+
+
